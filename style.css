@@ -65,8 +65,8 @@ a {
 }
 
 .signinbutton {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f9;
+    border: 1px solid #3882f9;
     font-weight: bold;
     color: white;
     border-radius: 5px;
@@ -85,3 +85,55 @@ a {
 }
 
 
+
+.topb {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items:center;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.titleb {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.illustation1 {
+    background-color: white;
+    border: 2px solid #3882f9;
+    border-radius: 10px;
+    padding:80px;
+    display: flex;
+    max-width: 80px;
+}
+
+.text {
+    display:flex;
+    max-width: 164px;
+    flex-wrap: wrap;
+    padding:15px;
+    text-align: center;
+}
