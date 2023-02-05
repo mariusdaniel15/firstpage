@@ -6,12 +6,14 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
 }
 
 .top {
     display: flex;
     flex:1;
     justify-content: space-around;
+    align-items:center;
 }
 
 ul {
@@ -33,8 +35,53 @@ a {
 .headerlogo{
     font-size: 24px;
     font-weight: bold;
-    color: #f0faf8;
+    color: #f9faf8;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+
+.bottom {
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 260px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+    display: flex;
+}
+
+.titlesubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+.signinbutton {
+    background: royalblue;
+    border: 1px solid royalblue;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.leftside2 {
+    max-width: 500px;
+}
+
+.rightside2 {
+    background-color: lightslategrey;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding:100px 180px;
+}
+
+
