@@ -88,6 +88,7 @@ a {
 
 .topb {
     display:flex;
+    flex:1;
     flex-direction: column;
     background-color: white;
     justify-content: center;
@@ -139,9 +140,11 @@ a {
 }
 
 
+
 .midb {
     background-color: #e5e7eb;
     display: flex;
+    flex:1;
     padding-top:150px;
     padding-bottom: 150px;
     flex-direction: column;
@@ -167,3 +170,42 @@ a {
     padding-left: 550px;
 }
 
+
+
+.bottomb {
+    background-color: white;
+    padding-top:150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: #3882f9;
+    border-radius: 5px;
+    padding: 40px 100px;
+    display:flex;
+    justify-content: space-around;
+    gap:200px;
+}
+
+.texttitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.textbelow {
+    color:#f9faf8;
+}
+
+.signinbutton2 {
+    background: #3882f9;
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin:15px;
+}
