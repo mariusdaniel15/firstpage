@@ -209,3 +209,18 @@ a {
     border-radius: 5px;
     margin:15px;
 }
+
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+.textf{
+    color: #f9faf8;
+}
